@@ -10,7 +10,7 @@ def main():
     
     env = os.environ.copy()
     env["PYTHONIOENCODING"] = "utf-8"
-    env["GEMINI_API_KEY"] = "AIzaSyDtX25cbj1h1IrF-meips9HnVgemcphHas"
+    env["GEMINI_API_KEY"] = ""
     
     # Step 1: Run pipeline evaluation (uses saved model)
     print("\n[1/3] Running evaluation pipeline (loading saved models)...")
